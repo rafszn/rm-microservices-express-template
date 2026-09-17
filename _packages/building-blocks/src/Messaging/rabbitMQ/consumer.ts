@@ -6,7 +6,7 @@ import { QueueName } from "../contracts/queues.js";
 export interface MessageMetadata {
   type?: string;
   exchange: string;
-  timestamp?: number;
+  timestamp: number;
   routingKey: string;
   messageId: string;
   deliveryTag: number;
