@@ -70,6 +70,14 @@
     "./dlq-monitoring": {
       "import": "./dist/DLQMonitoring/index.js",
       "types": "./dist/DLQMonitoring/index.d.ts"
+    },
+    "./outbox": {
+      "import": "./dist/Outbox/index.js",
+      "types": "./dist/Outbox/index.d.ts"
+    },
+    "./inbox": {
+      "import": "./dist/Inbox/index.js",
+      "types": "./dist/Inbox/index.d.ts"
     }
   },
   "dependencies": {
