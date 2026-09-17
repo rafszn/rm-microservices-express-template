@@ -8,10 +8,10 @@ export interface MessageMetadata {
   exchange: string;
   timestamp?: number;
   routingKey: string;
-  messageId?: string;
+  messageId: string;
   deliveryTag: number;
   redelivered: boolean;
-  correlationId?: string;
+  correlationId: string;
   headers?: Record<string, unknown>;
 }
 
